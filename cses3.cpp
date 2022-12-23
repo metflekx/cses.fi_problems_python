@@ -42,7 +42,10 @@ int main()
 			previous = input[i];
 		}	
 	}
-
+	/*the counter is always 1 less than the real repeatation
+	becuase it's initiall value is set to 0 each time so the
+	we have to print the (highest + 1).
+	*/
 	printf("%d\n", highest + 1);
 	return 0;
 }
